@@ -4,9 +4,13 @@
   "description": "",
   "license": "ISC",
   "author": "Md Shadab Khan",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
   }
 }
