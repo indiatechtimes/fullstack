@@ -14,28 +14,28 @@ app.get('/api/jokes',(req,res)=>{
     const jokes=[
         {
             id:1,
-            title:'first Joke',
-            content:'This is first joke'
+            title:"Why don't programmers like nature?",
+            content:"Because it has too many bugs."
         },
         {
             id:2,
-            title:'second joke',
-            content:'this is second joke'
+            title:"Why Java developers wear glasses?",
+            content:"Because they don't C#."
         },
         {
             id:3,
-            title:'third joke',
-            content:'this is third joke'
+            title:"Flutter is awesome.",
+            content:"Because everything is a widget."
         },
         {
             id:4,
-            title:'fourth joke',
-            content:'this is fourth joke'
+            title:"Why NodeJS?",
+            content:"Because JavaScript everywhere."
         },
         {
             id:5,
-            title:'fifth joke',
-            content:'this is fifth joke'
+            title:"What is API?",
+            content:"A waiter between client and database."
         }
     ]
     res.send(jokes);
